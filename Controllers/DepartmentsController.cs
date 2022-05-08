@@ -14,7 +14,10 @@ namespace Netcore3TestApp.Controllers
     public class DepartmentsController : ControllerBase
     {
         private readonly CorecruidContext _context;
-
+        /// <summary>
+        /// Controller
+        /// </summary>
+        /// <param name="context"></param>
         public DepartmentsController(CorecruidContext context)
         {
             _context = context;
